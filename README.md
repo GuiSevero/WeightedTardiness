@@ -13,7 +13,7 @@ Implementação de um Algoritmo Genético para resolução do problema Weighted 
 
 - Definição do problema: http://people.brunel.ac.uk/~mastjjb/jeb/orlib/wtinfo.html
 
-- Apresentação - https://github.com/GuiSevero/IAction/blob/master/Apresentacao.pdf
+- Apresentação - https://github.com/GuiSevero/WeightedTardiness/blob/master/Apresentacao.pdf
 
 - JAVA 
 
@@ -24,12 +24,10 @@ Implementação de um Algoritmo Genético para resolução do problema Weighted 
 
 ```java
 public static void main(String[] args) throws Exception {
-         	
- 		
-   		   testExecutar("wt100.txt", "WT100_1_Out_1min" + i + ".txt",50, 1 ); // 1 minuto    	   
-    	
-    	
-    }
+         	 		
+	testExecutar("wt100.txt", "WT100_1_Out_1min" + i + ".txt",50, 1 ); // 1 minuto    	       	
+	
+}
 
 
     /**
